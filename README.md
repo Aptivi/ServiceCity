@@ -5,7 +5,7 @@
 <br>
     
 <img
-  src = 'https://cdn.jsdelivr.net/gh/Aptivi/ServiceCity@main/ServiceCity/OfficialAppIcon-ServiceCity-512.png'
+  src = 'https://cdn.jsdelivr.net/gh/Aptivi/ServiceCity@main/assets/OfficialAppIcon-ServiceCity-512.png'
   width = 256
   align = center
 />

@@ -3,7 +3,7 @@
         {
             "src": [
                 {
-                    "files": [ "ServiceCity/**.csproj", "ServiceCity.Calendar/**.csproj" ],
+                    "files": [ "public/**/*.csproj" ],
                     "src": ".."
                 }
             ],
