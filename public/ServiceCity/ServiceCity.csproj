@@ -27,6 +27,10 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="9.0.1" />
+  </ItemGroup>
+
   <!--<ItemGroup>
     <None Include="../../assets/OfficialAppIcon-ServiceCity-512.png">
       <Pack>True</Pack>
