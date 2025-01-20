@@ -19,6 +19,7 @@
 
 using ServiceCity.Instances;
 using ServiceCity.Tools.Native;
+using SpecProbe.Software.Platform;
 
 namespace ServiceCity.Tools
 {
@@ -33,7 +34,14 @@ namespace ServiceCity.Tools
         /// <returns>System service instances</returns>
         public static SystemService[] EnumerateServices()
         {
-            return NativeServiceEnumerator.EnumerateServicesWindows();
+            var platform = PlatformHelper.GetPlatform();
+            return platform switch
+            {
+                Platform.Windows => NativeServiceEnumerator.EnumerateServicesWindows(),
+                Platform.MacOS => NativeServiceEnumerator.EnumerateServicesMacOS(),
+                Platform.Linux => NativeServiceEnumerator.EnumerateServicesLinux(),
+                _ => throw new NativeServiceException("Can't enumerate services on an unknown platform."),
+            };
         }
     }
 }
