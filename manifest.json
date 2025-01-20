@@ -14,6 +14,59 @@
       }
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ServiceCity.Instances.SystemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ServiceCity.Instances.SystemService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ServiceCity.Instances.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ServiceCity.Instances.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ServiceCity.Tools.ServiceEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ServiceCity.Tools.ServiceEnumerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ServiceCity.Tools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ServiceCity.Tools.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "favicon.ico",
       "output": {

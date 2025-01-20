@@ -1,4 +1,24 @@
 {
+  "api/ServiceCity.Instances.SystemService.html": {
+    "href": "api/ServiceCity.Instances.SystemService.html",
+    "title": "Class SystemService | ServiceCity API - Aptivi",
+    "keywords": "Class SystemService System service representation Inheritance object SystemService Namespace: ServiceCity.Instances Assembly: ServiceCity.dll Syntax public class SystemService Properties | Edit this page View Source DisplayName Display name of the service Declaration public string DisplayName { get; } Property Value Type Description string | Edit this page View Source Name Name of the service Declaration public string Name { get; } Property Value Type Description string"
+  },
+  "api/ServiceCity.Instances.html": {
+    "href": "api/ServiceCity.Instances.html",
+    "title": "Namespace ServiceCity.Instances | ServiceCity API - Aptivi",
+    "keywords": "Namespace ServiceCity.Instances Classes SystemService System service representation"
+  },
+  "api/ServiceCity.Tools.ServiceEnumerator.html": {
+    "href": "api/ServiceCity.Tools.ServiceEnumerator.html",
+    "title": "Class ServiceEnumerator | ServiceCity API - Aptivi",
+    "keywords": "Class ServiceEnumerator Enumeration tools for operating system services Inheritance object ServiceEnumerator Namespace: ServiceCity.Tools Assembly: ServiceCity.dll Syntax public static class ServiceEnumerator Methods | Edit this page View Source EnumerateServices() Enumerates all installed services on your computer Declaration public static SystemService[] EnumerateServices() Returns Type Description SystemService[] System service instances"
+  },
+  "api/ServiceCity.Tools.html": {
+    "href": "api/ServiceCity.Tools.html",
+    "title": "Namespace ServiceCity.Tools | ServiceCity API - Aptivi",
+    "keywords": "Namespace ServiceCity.Tools Classes ServiceEnumerator Enumeration tools for operating system services"
+  },
   "index.html": {
     "href": "index.html",
     "title": "| ServiceCity API - Aptivi",
