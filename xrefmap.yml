@@ -7,6 +7,49 @@ references:
   commentId: N:ServiceCity.Instances
   fullName: ServiceCity.Instances
   nameWithType: ServiceCity.Instances
+- uid: ServiceCity.Instances.NativeServiceException
+  name: NativeServiceException
+  href: api/ServiceCity.Instances.NativeServiceException.html
+  commentId: T:ServiceCity.Instances.NativeServiceException
+  fullName: ServiceCity.Instances.NativeServiceException
+  nameWithType: NativeServiceException
+- uid: ServiceCity.Instances.NativeServiceException.#ctor
+  name: NativeServiceException()
+  href: api/ServiceCity.Instances.NativeServiceException.html#ServiceCity_Instances_NativeServiceException__ctor
+  commentId: M:ServiceCity.Instances.NativeServiceException.#ctor
+  name.vb: New()
+  fullName: ServiceCity.Instances.NativeServiceException.NativeServiceException()
+  fullName.vb: ServiceCity.Instances.NativeServiceException.New()
+  nameWithType: NativeServiceException.NativeServiceException()
+  nameWithType.vb: NativeServiceException.New()
+- uid: ServiceCity.Instances.NativeServiceException.#ctor(System.String)
+  name: NativeServiceException(string)
+  href: api/ServiceCity.Instances.NativeServiceException.html#ServiceCity_Instances_NativeServiceException__ctor_System_String_
+  commentId: M:ServiceCity.Instances.NativeServiceException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: ServiceCity.Instances.NativeServiceException.NativeServiceException(string)
+  fullName.vb: ServiceCity.Instances.NativeServiceException.New(String)
+  nameWithType: NativeServiceException.NativeServiceException(string)
+  nameWithType.vb: NativeServiceException.New(String)
+- uid: ServiceCity.Instances.NativeServiceException.#ctor(System.String,System.Exception)
+  name: NativeServiceException(string, Exception)
+  href: api/ServiceCity.Instances.NativeServiceException.html#ServiceCity_Instances_NativeServiceException__ctor_System_String_System_Exception_
+  commentId: M:ServiceCity.Instances.NativeServiceException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: ServiceCity.Instances.NativeServiceException.NativeServiceException(string, System.Exception)
+  fullName.vb: ServiceCity.Instances.NativeServiceException.New(String, System.Exception)
+  nameWithType: NativeServiceException.NativeServiceException(string, Exception)
+  nameWithType.vb: NativeServiceException.New(String, Exception)
+- uid: ServiceCity.Instances.NativeServiceException.#ctor*
+  name: NativeServiceException
+  href: api/ServiceCity.Instances.NativeServiceException.html#ServiceCity_Instances_NativeServiceException__ctor_
+  commentId: Overload:ServiceCity.Instances.NativeServiceException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ServiceCity.Instances.NativeServiceException.NativeServiceException
+  fullName.vb: ServiceCity.Instances.NativeServiceException.New
+  nameWithType: NativeServiceException.NativeServiceException
+  nameWithType.vb: NativeServiceException.New
 - uid: ServiceCity.Instances.SystemService
   name: SystemService
   href: api/ServiceCity.Instances.SystemService.html

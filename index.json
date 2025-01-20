@@ -1,4 +1,9 @@
 {
+  "api/ServiceCity.Instances.NativeServiceException.html": {
+    "href": "api/ServiceCity.Instances.NativeServiceException.html",
+    "title": "Class NativeServiceException | ServiceCity API - Aptivi",
+    "keywords": "Class NativeServiceException Thrown when native service exception occurs Inheritance object Exception NativeServiceException Namespace: ServiceCity.Instances Assembly: ServiceCity.dll Syntax public class NativeServiceException : Exception Constructors | Edit this page View Source NativeServiceException() Creates a new service exception class Declaration public NativeServiceException() | Edit this page View Source NativeServiceException(string) Creates a new service exception class Declaration public NativeServiceException(string message) Parameters Type Name Description string message Exception message to include | Edit this page View Source NativeServiceException(string, Exception) Creates a new service exception class Declaration public NativeServiceException(string message, Exception innerException) Parameters Type Name Description string message Exception message to include Exception innerException Inner exception to include"
+  },
   "api/ServiceCity.Instances.SystemService.html": {
     "href": "api/ServiceCity.Instances.SystemService.html",
     "title": "Class SystemService | ServiceCity API - Aptivi",
@@ -7,7 +12,7 @@
   "api/ServiceCity.Instances.html": {
     "href": "api/ServiceCity.Instances.html",
     "title": "Namespace ServiceCity.Instances | ServiceCity API - Aptivi",
-    "keywords": "Namespace ServiceCity.Instances Classes SystemService System service representation"
+    "keywords": "Namespace ServiceCity.Instances Classes NativeServiceException Thrown when native service exception occurs SystemService System service representation"
   },
   "api/ServiceCity.Tools.ServiceEnumerator.html": {
     "href": "api/ServiceCity.Tools.ServiceEnumerator.html",

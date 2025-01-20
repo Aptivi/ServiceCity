@@ -15,6 +15,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ServiceCity.Instances.NativeServiceException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ServiceCity.Instances.NativeServiceException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ServiceCity.Instances.SystemService.yml",
       "output": {
         ".html": {
