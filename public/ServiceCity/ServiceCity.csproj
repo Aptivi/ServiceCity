@@ -30,6 +30,7 @@
   <ItemGroup>
     <PackageReference Include="SpecProbe.Software" Version="3.4.0" />
     <PackageReference Include="System.ServiceProcess.ServiceController" Version="9.0.1" />
+    <PackageReference Include="Textify.Offline" Version="2.9.0" />
   </ItemGroup>
 
   <!--<ItemGroup>
