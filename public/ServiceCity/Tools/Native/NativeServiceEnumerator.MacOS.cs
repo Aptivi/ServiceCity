@@ -18,7 +18,11 @@
 //
 
 using ServiceCity.Instances;
+using SpecProbe.Software.Platform;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using Textify.General;
 
 namespace ServiceCity.Tools.Native
 {
@@ -26,8 +30,36 @@ namespace ServiceCity.Tools.Native
     {
         internal static SystemService[] EnumerateServicesMacOS()
         {
-            // TODO: Placeholder
             List<SystemService> services = [];
+
+            // Check for launchctl
+            string[] launchctls = PlatformHelper.GetPossiblePaths("launchctl");
+            if (launchctls.Length > 0)
+            {
+                string launchctl = launchctls[0];
+
+                // launchctl is found! Use launchctl to query services and their status
+                string[] serviceLines = PlatformHelper.ExecuteProcessToString(launchctl, "list").SplitNewLines().Skip(1).ToArray();
+                foreach (string line in serviceLines)
+                {
+                    if (string.IsNullOrEmpty(line))
+                        continue;
+                    string[] fields = line.Split(['\t'], StringSplitOptions.RemoveEmptyEntries);
+
+                    // Get the field values
+                    string name = fields[2];
+                    string displayName = name;
+
+                    // Generate a service instance
+                    var service = new SystemService()
+                    {
+                        Name = name,
+                        DisplayName = displayName,
+                    };
+                    services.Add(service);
+                }
+            }
+
             return [.. services];
         }
     }
