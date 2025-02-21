@@ -21,7 +21,11 @@
           "relative_path": "api/ServiceCity.Instances.NativeServiceException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ServiceCity.Instances.NativeServiceException",
+      "Summary": "<p sourcefile=\"api/ServiceCity.Instances.NativeServiceException.yml\" sourcestartlinenumber=\"1\">Thrown when native service exception occurs</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -31,7 +35,11 @@
           "relative_path": "api/ServiceCity.Instances.SystemService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ServiceCity.Instances.SystemService",
+      "Summary": "<p sourcefile=\"api/ServiceCity.Instances.SystemService.yml\" sourcestartlinenumber=\"1\">System service representation</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -41,7 +49,11 @@
           "relative_path": "api/ServiceCity.Instances.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ServiceCity.Instances",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -51,7 +63,11 @@
           "relative_path": "api/ServiceCity.Tools.ServiceEnumerator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ServiceCity.Tools.ServiceEnumerator",
+      "Summary": "<p sourcefile=\"api/ServiceCity.Tools.ServiceEnumerator.yml\" sourcestartlinenumber=\"1\">Enumeration tools for operating system services</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -61,7 +77,11 @@
           "relative_path": "api/ServiceCity.Tools.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ServiceCity.Tools",
+      "Summary": null
     },
     {
       "type": "Toc",
